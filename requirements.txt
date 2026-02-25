@@ -1,0 +1,22 @@
+# Requirements for Afaan Oromoo Chatbot Fine-tuning
+# Install with: pip install -r requirements.txt
+
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.14.0
+accelerate>=0.24.0
+
+# PEFT for LoRA/QLoRA
+peft>=0.7.0
+bitsandbytes>=0.41.0
+
+# Training utilities
+trl>=0.7.0
+
+# Optional: for faster training
+# flash-attn>=2.0.0  # Requires specific CUDA version
+
+# Utilities
+tqdm>=4.65.0
+numpy>=1.24.0
